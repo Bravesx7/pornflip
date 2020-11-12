@@ -4,12 +4,12 @@ Login, search and scrap movie information as well as download links, From PornFl
 
 # Installation
 ```
-composer require Psoan/PornFlip
+composer require psoan/pornflip
 ```
 
 ## Basic usage : You should login first, To create an account go to [PornFlip](https://www.pornflip.com/account/join)
 ```php
-require_once 'PornFlip.php';
+require_once 'vendor/autoload.php';
 $username = 'AccountUsername';
 $password = 'AccountPassword';
 $cookiefile = 'firstaccountcookie.txt'; //You can use it as a multi-account
