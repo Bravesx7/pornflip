@@ -9,7 +9,7 @@ composer require Psoan/PornFlip
 
 ## Basic usage : You should login first, To create an account go to [PornFlip](https://www.pornflip.com/account/join)
 ```php
-require_once 'vendor/autoload.php
+require_once 'PornFlip.php';
 $username = 'AccountUsername';
 $password = 'AccountPassword';
 $cookiefile = 'firstaccountcookie.txt'; //You can use it as a multi-account
